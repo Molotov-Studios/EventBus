@@ -1,0 +1,26 @@
+{
+  "name": "com.molotovstudios.unity.simple-event-bus",
+  "version": "0.0.1",
+  "displayName": "Simple Event Bus",
+  "description": "Another C# implementation of an event bus",
+  "documentationUrl": "https://github.com/Molotov-Studios/EventBus/blob/main/README.md",
+  "changelogUrl": "https://github.com/Molotov-Studios/EventBus/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Molotov-Studios/EventBus/blob/main/LICENSE.md",
+  "samples": [
+    {
+      "displayName": "Basic usage",
+      "description": "Simple scene including an event bus, a publisher and a subscriber",
+      "path": "Samples/BasicUsage"
+    }
+  ],
+  "keywords": [
+    "molotov-studios",
+    "event-bus",
+    "events"
+  ],
+  "author": {
+    "name": "Molotov Studios",
+    "email": "info@molotov-studios.es",
+    "url": "https://molotov-studios.es"
+  }
+}
