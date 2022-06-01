@@ -2,7 +2,7 @@ using System;
 
 namespace SimpleEventBus
 {
-    internal class Subscription<TEvent> : ISubscription<TEvent> where TEvent : IEvent
+    internal class Subscription<TEvent> where TEvent : IEvent
     {
         private readonly Action<TEvent> action;
         private bool publishing;

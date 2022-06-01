@@ -1,7 +1,7 @@
 using UnityEngine;
 using SimpleEventBus;
 
-public class SamplePublisher : UnityEngine.MonoBehaviour
+public class SamplePublisher : MonoBehaviour
 {
     private float timer = 0f;
 
@@ -11,7 +11,7 @@ public class SamplePublisher : UnityEngine.MonoBehaviour
         if (timer >= 2f)
         {
             timer = 0f;
-            GlobalEventBus.Publish<SampleEvent>(new SampleEvent("hi!"));
+            EventBus.global.Publish<SampleEvent>(new SampleEvent("hi!"));
         }
 
         timer += Time.deltaTime;
