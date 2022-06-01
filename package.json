@@ -1,6 +1,6 @@
 {
   "name": "com.molotovstudios.unity.simple-event-bus",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "displayName": "Simple Event Bus",
   "description": "Another C# implementation of an event bus",
   "documentationUrl": "https://github.com/Molotov-Studios/EventBus/blob/main/README.md",
