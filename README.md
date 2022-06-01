@@ -10,6 +10,9 @@ Go to the Unity Package Manager (`Window > Package Manager`), open the `+` dropd
 git@github.com:Molotov-Studios/SimpleEventBus.git
 ```
 
+![2022-06-01 17-22-57](https://user-images.githubusercontent.com/2975360/171453248-a6163253-dde1-4938-916d-077c110d377b.gif)
+
+
 ## Usage
 
 To use this library properly, you should:
