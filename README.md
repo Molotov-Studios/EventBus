@@ -65,19 +65,19 @@ public class HelloSubscriber : MonoBehaviour
 With a local `SimpleEventBus.EventBus` instance:
 
 ```cs
-// Create an event by implementing the SimpleEventBus.IEvent interface
+using SimpleEventBus;
 
 // Example of a publisher
 public class ClosedSystem
 {
-    private class HelloEvent : SimpleEventBus.IEvent
+    private class HelloEvent : IEvent
     {
         public HelloEvent() { }
     }
 
     private void CustomMethod()
     {
-        SimpleEventBus.EventBus bus = new SimpleEventBus.EventBus();
+        EventBus bus = new EventBus();
         bus.Subscribe<HelloEvent>(OnHelloEvent);
         bus.Publish<HelloEvent>(new HelloEvent());
     }
