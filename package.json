@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "displayName": "Simple Event Bus",
   "description": "Another C# implementation of an event bus",
-  "documentationUrl": "https://github.com/Molotov-Studios/EventBus/blob/main/README.md",
-  "changelogUrl": "https://github.com/Molotov-Studios/EventBus/blob/main/CHANGELOG.md",
-  "licensesUrl": "https://github.com/Molotov-Studios/EventBus/blob/main/LICENSE.md",
+  "documentationUrl": "https://github.com/Molotov-Studios/SimpleEventBus/blob/main/README.md",
+  "changelogUrl": "https://github.com/Molotov-Studios/SimpleEventBus/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Molotov-Studios/SimpleEventBus/blob/main/LICENSE.md",
   "samples": [
     {
       "displayName": "Basic usage",
